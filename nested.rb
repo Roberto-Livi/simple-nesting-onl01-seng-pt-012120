@@ -82,7 +82,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-hash1 = programmer_hash[:yukihiro_matsumoto,1].merge!(hash1)
+programmer_hash[:yukihiro_matsumoto,1].unshift
 
     
 end
